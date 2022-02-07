@@ -1,0 +1,5 @@
+-- Function to convert string to lower case :- print (phrase.lower())
+-- Function to convert string to upper case :- print (phrase.upper())
+-- To check upper & lower case :- print (phrase.upper() .isupper())
+-- Index function [] :- To show perticular character number in a string & where is a perticular character located.
+-- Replace function :- print(phrase.replace("hello","hi"), it will replace hello with hi.

@@ -1,0 +1,6 @@
+name = input ("Please enter your name : ")
+day = input ("Please enter today's day : ")
+date = input ("Plese enter today's date : ")
+print ("Hello " + name + " ! ")
+print ("Today is " + day + " .")
+print ("Today's date is :" + date +"\nThank You.") 

@@ -3,3 +3,7 @@
 -- To check upper & lower case :- print (phrase.upper() .isupper())
 -- Index function [] :- To show perticular character number in a string & where is a perticular character located.
 -- Replace function :- print(phrase.replace("hello","hi"), it will replace hello with hi.
+-- Function absolute value :- my_num = -5 
+                              print (abs(my_num))
+-- Function for power(3^2) as :- my_num = -5
+                                 print (pow(3, 2))

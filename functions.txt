@@ -7,3 +7,6 @@
                               print (abs(my_num))
 -- Function for power(3^2) as :- my_num = -5
                                  print (pow(3, 2))
+-- Function max and min for displaying maximum and minimum value :- print(max(3, 7))
+                                                                    print(min(3, 7))
+-- Function for round of :- print (round (3.5)) -> 4

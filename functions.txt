@@ -13,22 +13,33 @@
 -- List Functions :- extend, append, insert
                      
                      extend :- colors = ["red", "pink", "blue", "black", "orange"]
-                               colors.extend(lucky_numbers) -> will join the two lists
+                               colors.extend(lucky_numbers) # will join the two lists
                                print(colors)
                      append :- colors = ["red", "pink", "blue", "black", "orange"]
-                               colors.append("white") -> will add 'white' at the end of the list colors
+                               colors.append("white") # will add 'white' at the end of the list colors
                                print(colors)
                      insert :- colors = ["red", "pink", "blue", "black", "orange"]
-                               colors.insert(1, "white") -> will add 'white' at place of index 1.
+                               colors.insert(1, "white") # will add 'white' at place of index 1.
                                print(colors)
                      remove :- colors = ["red", "pink", "blue", "black", "orange"]
-                               colors.remove("blue") -> will remove 'blue' from the list
+                               colors.remove("blue") # will remove 'blue' from the list
                                print(colors)
                      sort :-   colors = ["red", "pink", "blue", "blue", "orange", "black"]
-                               colors.sort() -> will sort in ascending order
+                               colors.sort() # will sort in ascending order
                                print(colors)
                      count :-  colors = ["red", "pink", "blue", "blue", "orange", "black"]
-                               print(colors.count("blue")) -> will count the element in list
+                               print(colors.count("blue")) # will count the element in list
                      reverse :-lucky_numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-                               lucky_numbers.reverse() -> will print the list in reverse order
+                               lucky_numbers.reverse() # will print the list in reverse order
                                print(lucky_numbers)
+                     copy :-   colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               colors2 = colors.copy()  # it will copy elements of colors list into color2 list
+                               print(colors2)  
+                     clear :-  colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               colors.clear() # will clear a list
+                               print(colors)
+                     pop :-    colors = ["red", "pink", "blue", "blue", "orange", "black"]          
+                               colors.pop() # will pop the element, remove
+                               print(colors)
+                     index :-  colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               print(colors.index["pink"]) # will show in list

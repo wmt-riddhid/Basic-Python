@@ -21,3 +21,14 @@
                      insert :- colors = ["red", "pink", "blue", "black", "orange"]
                                colors.insert(1, "white") -> will add 'white' at place of index 1.
                                print(colors)
+                     remove :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.remove("blue") -> will remove 'blue' from the list
+                               print(colors)
+                     sort :-   colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               colors.sort() -> will sort in ascending order
+                               print(colors)
+                     count :-  colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               print(colors.count("blue")) -> will count the element in list
+                     reverse :-lucky_numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+                               lucky_numbers.reverse() -> will print the list in reverse order
+                               print(lucky_numbers)

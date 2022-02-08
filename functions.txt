@@ -10,3 +10,14 @@
 -- Function max and min for displaying maximum and minimum value :- print(max(3, 7))
                                                                     print(min(3, 7))
 -- Function for round of :- print (round (3.5)) -> 4
+-- List Functions :- extend, append, insert
+                     
+                     extend :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.extend(lucky_numbers) -> will join the two lists
+                               print(colors)
+                     append :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.append("white") -> will add 'white' at the end of the list colors
+                               print(colors)
+                     insert :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.insert(1, "white") -> will add 'white' at place of index 1.
+                               print(colors)

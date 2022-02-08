@@ -1,0 +1,34 @@
+-- Function to convert string to lower case :- print (phrase.lower())
+-- Function to convert string to upper case :- print (phrase.upper())
+-- To check upper & lower case :- print (phrase.upper() .isupper())
+-- Index function [] :- To show perticular character number in a string & where is a perticular character located.
+-- Replace function :- print(phrase.replace("hello","hi"), it will replace hello with hi.
+-- Function absolute value :- my_num = -5 
+                              print (abs(my_num))
+-- Function for power(3^2) as :- my_num = -5
+                                 print (pow(3, 2))
+-- Function max and min for displaying maximum and minimum value :- print(max(3, 7))
+                                                                    print(min(3, 7))
+-- Function for round of :- print (round (3.5)) -> 4
+-- List Functions :- extend, append, insert
+                     
+                     extend :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.extend(lucky_numbers) -> will join the two lists
+                               print(colors)
+                     append :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.append("white") -> will add 'white' at the end of the list colors
+                               print(colors)
+                     insert :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.insert(1, "white") -> will add 'white' at place of index 1.
+                               print(colors)
+                     remove :- colors = ["red", "pink", "blue", "black", "orange"]
+                               colors.remove("blue") -> will remove 'blue' from the list
+                               print(colors)
+                     sort :-   colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               colors.sort() -> will sort in ascending order
+                               print(colors)
+                     count :-  colors = ["red", "pink", "blue", "blue", "orange", "black"]
+                               print(colors.count("blue")) -> will count the element in list
+                     reverse :-lucky_numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+                               lucky_numbers.reverse() -> will print the list in reverse order
+                               print(lucky_numbers)

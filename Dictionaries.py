@@ -12,4 +12,4 @@ monthConversions = {
     "Nov" : "November",
     "Dec" : "December",
 }
-print(monthConversions["Nov"])
+print(monthConversions.get("Abc", "Not a valid key"))
